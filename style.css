@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: rgb(3, 1, 8);
+    overflow: hidden;
+}
+
+.body {
+    display: flex;
+    background-color: rgb(3, 1, 8);
+    display: flex;
+    flex-direction: column;
+    /*border: #ff0000 1px solid;*/
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.n {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+    color: #ddd;
+    padding-top: 12px;
+    padding-right: 16px;
+    /*border: #3cff00 1px solid;*/
+}
+
+.text {
+    display: flex;
+    column-gap: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    /*border: #00aeff 1px solid;*/
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    /*border: #00aeff 1px solid;*/
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+    background-color: #ddd;
+    display: flex;
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+}
+
+.n img {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    /*border: #3cff00 1px solid;*/
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 1, 8);
+    font-size: 40px;
+    height: 100px;
+    color: #ddd;
+    text-align: center;
+}
+
+.main {
+    align-items: center;
+    align-items: flex-start;
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    /*border: #3cff00 1px solid;*/
+}
+
+.search {
+    display: flex;
+    height: 36px;
+    padding: 5px;
+    /*padding-right: 380px;*/
+    margin: 10px;
+    border: 1px solid dimgray;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    /*border: #00eeff 1px solid;*/
+}
+
+.search:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: #0400ff 1px solid;*/
+
+}
+
+.input img {
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#search {
+    border: none;
+    background: transparent;
+    color: white;
+    position: relative;
+    width: 460px;
+    outline: none;
+    
+}
+
+.vi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 6px;
+    /*border: #0400ff 1px solid;*/
+}
+
+.vi img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.vi .voice {
+    height: 40px;
+    width: 40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /*border: #00eeff 1px solid;*/
+}
+
+.button button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(24, 23, 26);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 5px;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 12px;
+    /*border: #00eeff 1px solid;*/
+    text-align: center;
+}
+
+.google div {
+    color: rgb(79, 171, 233);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(15, 15, 15);
+    /*border: #3cff00 1px solid;*/
+    padding: auto;
+    text-align: center;
+}
+
+.nigeria {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20px;
+    border-bottom: rgb(37, 37, 37) solid 1px;
+    /*border: #00eeff 1px solid;*/
+}
+
+footer {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.footer a {
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer div {
+    padding: 15px;
+}
+
+.nf {
+    display: flex;
+    justify-content: space-between;
+    /*border: #00eeff 1px solid;*/
+}
+  
+/*.abh, .ju, .pts {
+    border: #0400ff 1px solid;
+}*/
+
+.ju {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
